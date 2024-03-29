@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hp-content"
+version = "0.1.0"
+description = ""
+authors = ["happpy <happpy.ziy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = "^3.9.3"
+
+
+[tool.poetry.group.dev.dependencies]
+aiohttp-devtools = "^1.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

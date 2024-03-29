@@ -1,0 +1,10 @@
+# Python bytecode
+*.pyc
+
+# Python tests
+tests/
+
+# Build
+build/
+dist/
+__pycache__/
